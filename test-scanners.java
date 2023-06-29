@@ -3,7 +3,7 @@ import java.util.Scanner;
 class testInput {
 	public static void main(String[] args) {
 		var s1 = new Scanner(System.in);
-		var s2 = s1;
+		var s2 = new Scanner(System.in);
 
 		for (int i = 0; i < 4; i++) {
 			var s1Has = s1.hasNextInt();
